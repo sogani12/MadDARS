@@ -1,0 +1,11 @@
+INSERT INTO college_breadth (college_id, breadth_type, req_credits) VALUES 
+    (1, 'h/l/a', 6),
+    (1, 'Natural Science', 4),
+    (1, 'Social Sciences', 3),
+    (1, 'Comm A', 1),
+    (1, 'Comm B', 1),
+    (1, 'Ethnic Studies', 1),
+    (1, 'QRA', 1),
+    (1, 'QRB', 1);
+
+

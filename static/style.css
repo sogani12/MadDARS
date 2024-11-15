@@ -1,0 +1,113 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f8fb; /* Lighter background for the body */
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #007bff; /* Blue background to match the theme */
+    color: white;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    text-align: center;
+    padding: 0 20px; /* Padding to ensure the text doesn't touch the edges */
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#getStartedButton {
+    background-color: #ffdf00; /* Yellow background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 15px 40px; /* Add more padding for larger button */
+    font-size: 1.25rem; /* Increase font size */
+    border-radius: 50px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4); /* Subtle shadow */
+    cursor: pointer;
+}
+
+#getStartedButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-4px); /* Slightly lift the button on hover */
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6); /* More pronounced shadow on hover */
+}
+
+#getStartedButton:focus {
+    outline: none; /* Remove outline when clicked */
+}
+
+
+/* Get Started Button Styling */
+#getStartedButton {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 15px 40px; /* Add more padding for larger button */
+    font-size: 1.25rem; /* Increase font size */
+    border-radius: 50px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4); /* Subtle shadow */
+}
+
+#getStartedButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-4px); /* Slightly lift the button on hover */
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6); /* More pronounced shadow on hover */
+}
+
+#getStartedButton:focus {
+    outline: none; /* Remove outline when clicked */
+}
+
+/* Other sections (optional) */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdf00; /* Yellow hover effect for links */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffdf00; /* Yellow links in footer */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #007bff;
+}

@@ -1,0 +1,60 @@
+CREATE TABLE IF NOT EXISTS college (
+    college_id SERIAL PRIMARY KEY,
+    college_name VARCHAR(200) UNIQUE NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS degree (
+    degree_id SERIAL PRIMARY KEY,
+    degree_name VARCHAR(200) UNIQUE NOT NULL,
+    req_credits INT
+);
+
+CREATE TABLE IF NOT EXISTS course (
+    course_id SERIAL PRIMARY KEY,
+    course_name VARCHAR(200) UNIQUE NOT NULL,
+    credits_worth INT
+);
+
+CREATE TABLE IF NOT EXISTS breadth (
+    breadth_type VARCHAR(50) PRIMARY KEY
+);
+
+CREATE TABLE IF NOT EXISTS degree_course (
+    degree_id INT REFERENCES degree(degree_id),
+    course_id INT REFERENCES course(course_id),
+    PRIMARY KEY (degree_id, course_id)
+);
+
+CREATE TABLE IF NOT EXISTS degree_course_pro (
+    degree_id INT REFERENCES degree(degree_id),
+    course_id INT REFERENCES course(course_id),
+    encoding BYTEA,
+    PRIMARY KEY (degree_id, course_id)
+);
+
+CREATE TABLE IF NOT EXISTS course_breadth (
+    course_id INT REFERENCES course(course_id),
+    breadth_type VARCHAR(50) REFERENCES breadth(breadth_type),
+    PRIMARY KEY (course_id, breadth_type)
+);
+
+CREATE TABLE IF NOT EXISTS college_breadth (
+    college_id INT REFERENCES college(college_id),
+    breadth_type VARCHAR(50) REFERENCES breadth(breadth_type),
+    req_credits INT,
+    PRIMARY KEY (college_id, breadth_type)
+);
+
+CREATE TABLE IF NOT EXISTS prerequisite (
+    course_id INT REFERENCES course(course_id),
+    prereq_course_id INT REFERENCES course(course_id),
+    PRIMARY KEY (course_id, prereq_course_id)
+);
+
+CREATE TABLE IF NOT EXISTS mut_exclusive (
+    course_id INT REFERENCES course(course_id),
+    exc_course_id INT REFERENCES course(course_id),
+    PRIMARY KEY (course_id, exc_course_id),
+    CONSTRAINT no_self_reference CHECK (course_id <> exc_course_id),
+    CONSTRAINT ordered_pair CHECK (course_id < exc_course_id)
+);

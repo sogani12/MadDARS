@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Degree Advisor</title>
+    <!-- Google Fonts for stylish typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Bootstrap for responsive grid and utilities -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to custom CSS -->
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">University Degree Advisor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#upload">Upload</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Get Started Button -->
+    <section id="home" class="hero-section">
+        <div class="container text-center">
+            <h1>Plan Your Academic Journey</h1>
+            <p class="lead">Get personalized suggestions for majors, minors, electives, and required courses based on your DARS report!</p>
+            <!-- Proper button styling -->
+            <button class="btn btn-primary btn-lg" id="getStartedButton">Get Started</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">What is the Degree Advisor?</h2>
+            <p class="lead">The University Degree Advisor helps you plan your academic journey by analyzing your DARS report, suggesting suitable majors, minors, and electives. Make informed decisions about your academic career with personalized recommendations.</p>
+        </div>
+    </section>
+
+    <!-- Upload DARS Section -->
+    <section id="upload" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Upload Your DARS Report</h2>
+            <form action="{{ url_for('process_pdf') }}" method="POST" enctype="multipart/form-data" class="text-center">
+                <div class="form-group">
+                    <input type="file" class="form-control-file" id="darsFile" name="file" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <p>© 2024 University Degree Advisor | Designed for Hackathon</p>
+            <p><a href="mailto:contact@universityadvisor.com">Contact Us</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and jQuery for responsive features -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        document.getElementById("getStartedButton").addEventListener("click", function() {
+            // Smooth scroll to the 'upload' section
+            document.querySelector("#upload").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+</body>
+</html>

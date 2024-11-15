@@ -1,0 +1,14 @@
+INSERT INTO breadth (breadth_type) VALUES 
+    ('Biological Science'),
+    ('Humanities'),
+    ('Literature'),
+    ('Natural Science'),
+    ('Physical Science'),
+    ('Social Sciences'),
+    ('Comm A'),
+    ('Comm B'),
+    ('QRA'),
+    ('QRB'),
+    ('Ethnic Studies'),
+    ('h/l/a'),
+    ('bs/ps');

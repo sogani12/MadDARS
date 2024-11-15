@@ -1,0 +1,34 @@
+services:
+  db:
+    image: postgres:17.0
+    environment:
+      POSTGRES_USER: namans    # Set your PostgreSQL username here
+      POSTGRES_PASSWORD: aRAY_YAR12!  # Set your PostgreSQL password here
+      POSTGRES_DB: madmajors        # Name your default database
+    ports:
+      - "5432:5432"                    # Maps container port to host port
+    volumes:
+      - pgdata:/var/lib/postgresql/data # Volume for data persistence
+  
+  app:
+    build:
+      context: .
+      dockerfile: app.Dockerfile
+    depends_on:
+      - db
+
+  nb:
+    image: jupyter/base-notebook:latest
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./nb:/home/jovyan/work
+    depends_on:
+      - db
+    command: >
+      sh -c "pip install --no-cache-dir -r /home/jovyan/work/dependencies.txt && start-notebook.sh"
+volumes:
+  pgdata:
+  

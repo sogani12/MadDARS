@@ -1,0 +1,10 @@
+INSERT INTO college (college_name) VALUES 
+    ('College of Agricultural and Life Sciences'),
+    ('College of Engineering'),
+    ('College of Letters & Science'),
+    ('Gaylord Nelson Institute for Environmental Studies'),
+    ('School of Business'),
+    ('School of Education'),
+    ('School of Human Ecology'),
+    ('School of Nursing'),
+    ('School of Pharmacy');

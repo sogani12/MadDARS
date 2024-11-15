@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Degree Advisor Results</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Link to the external CSS file -->
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+
+    <!-- Add Bootstrap JS for collapse feature -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- Full jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS with Popper -->
+
+    <script>
+        // Function to toggle the visibility of the course details table
+        function toggleDetails(courseId) {
+            var detailsTable = document.getElementById(courseId);
+            if (detailsTable.style.display === "none" || detailsTable.style.display === "") {
+                detailsTable.style.display = "block"; // Show the table
+            } else {
+                detailsTable.style.display = "none"; // Hide the table
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center">Recommended Courses and Alignments</h2>
+
+        <div class="row">
+            {% for key, value in alignment_results %}
+                <div class="col-md-6">
+                    <div class="card mb-4 p-3 shadow-custom">
+                        <div class="card-body">
+                            <div class="card-title d-flex justify-content-between align-items-center">
+                                <span><span class="icon">📘</span>{{ key }}</span>
+                                <!-- View Details Button -->
+                                <button class="btn btn-info btn-sm" onclick="toggleDetails('{{ key|replace(' ', '_') }}')">View Details</button>
+                            </div>
+
+                            <!-- Table for Completed vs. Possible Courses (Initially hidden) -->
+                            <div id="{{ key|replace(' ', '_') }}" style="display: none;">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Courses Completed for This Major</th>
+                                            <th>Possible Courses</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for course_pair in value %}
+                                            {% if course_pair[1] != '-' %}
+                                                <tr>
+                                                    <td>
+                                                        {% if course_pair[0] == course_pair[1] %}
+                                                            {{ course_pair[0] }}
+                                                        {% else %}
+                                                            <!-- Empty if not matching and second element is not - -->
+<!--                                                             &nbsp; -->
+                                                        {% endif %}
+                                                    </td>
+                                                    <td>
+                                                        {% if course_pair[0] == '-' and course_pair[1] != '-' %}
+                                                            {{ course_pair[1] }}
+                                                        {% elif course_pair[0] != course_pair[1] %}
+                                                            {{ course_pair[1] }}
+                                                        {% endif %}
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequence Alignment Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sequence Alignment Results</h1>
+        <div class="sequence-list">
+            {% for sequence in sequences %}
+                <div class="sequence">
+                    <h2>Sequence {{ loop.index }}</h2>
+                    <pre>{{ sequence }}</pre>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
