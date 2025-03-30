@@ -1,0 +1,146 @@
+{
+  "title": "community-organizational-development-bs",
+  "flag": "False",
+  "total_min_credits": 41,
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "STAT301": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "SOC/C&ESOC360": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "STAT371": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "PSYCH210": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "ECON310": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "GEOG360": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h1": {
+    "1": [
+      {
+        "CSCS125": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "CSCS300": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CSCS345": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CSCS510": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CSCS570": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CSCS600": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CSCS254": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "INTER-HE202": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "CSCS601": {
+          "credits": "1-6",
+          "breadth": []
+        }
+      }
+    ],
+    "2": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_credits": 9,
+    "1": [
+      "CSCS+"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_credits": 6,
+    "1": [
+      "CNSRSCI+",
+      "DS+",
+      "HDFS+",
+      "INTER-HE+"
+    ]
+  }
+}

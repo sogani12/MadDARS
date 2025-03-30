@@ -1,0 +1,138 @@
+{
+    'title': Title of degree program,
+    'flag': Set with description if something is wrong or confusing,
+    'total_min_credits': minimum credits required to complete the major (calculate if you can, else let me know), 
+    'h1': {
+        '1': [list of must complete courses (usually have required, fundamental, foundational etc in the header)],
+        '2'(optional): [list of tuples where each tuple has course with an 'or' relationship]
+    },
+    'h2_x'(optional): {
+        'optional'(optional): True if header is optional,
+        'outside_credit'(optional): [list of header keys from which you can complete credits for this section],
+        'concurrent'(optional): [list of headers/courses that cannot be completed concurrently with this section],
+        'num_options': number of options/classes to choose in the section. for nested, it becomes number of sequences,
+        'num_credits'(optional): number of credits to choose in the section (select lower bound if range is given. set this if num_options isn't available),
+        '1': [list of all courses in the section],
+        '2': [list of tuples where each tuple has course with an 'and'/& relationship],
+        '3': [list of tuples where each tuple has course with an 'or' relationship],
+        'nested'(optional): { (note, if nested present, keys, 1,2,3 need not be present)
+            'h1': same as h1,
+            'h2_x': same as h2
+        }
+    }
+}
+
+
+
+schema:
+{
+    'title': Title of degree program,
+    'flag': Set with description if something is wrong or confusing,
+    'total_min_credits': minimum credits required to complete the major (calculate if you can, else let me know), 
+    'h1': {
+        '1': [list of must complete courses (usually have required, fundamental, foundational etc in the header)],
+        '2'(optional): [list of tuples where each tuple has course with an 'or' relationship]
+    },
+    'h2_x'(optional): {
+       ‘covered_outside’:  ‘True’, courses within the section completed elsewhere are valid
+        'optional'(optional): must be set to True only if that section is not actually required,
+        'outside_credit'(optional): [list of lists with header keys and number of credits],
+          'num_options': number of options/classes to choose in the section. for nested, it becomes number of sequences,
+        'num_credits'(optional): number of credits to choose in the section (select lower bound if range is given. set this if num_options isn't available),
+‘concurrent_no’: key holds a list of section keys where concurrent completion of courses is not allowed.
+‘Concurrent_yes: you have to enroll together
+        '1': [list of all courses in the section],
+        '2': [list of tuples where each tuple has course with an 'and'/& relationship],
+        '3': [list of tuples where each tuple has course with an 'or' relationship],
+        ‘4’: [CANNOT be counted for this section]
+        'nested'(optional): { (note, if nested present, keys, 1,2,3 need not be present) 
+            'h2_x_y': {
+                'h2_x_y_h1': same as h1,
+                'h2_x_y_h2_z': same as h2
+            }
+        }
+    }
+}
+
+note: ranges can be present, for eg: ECE399=ECE699 as in Computer Engineering. Can also be present as 
+ECE+ if any ECE course is valid
+courses where a specific number of credits need to be taken will be placed inside a list with the 
+second element being the number
+
+If ‘covered_outside’ == ‘True’, courses within the section completed elsewhere are valid (from anywhere else)
+ - double satisfy reqs
+Elif outside_credit is list with keys, additional courses from that section can be used within current 
+section. (this is equivalent to pasting from a different header into this section)
+If num_outside_credit key is present, only the specified number of credits/options from the outside 
+section can be used in current section.
+For eg: in h2_1, we have outside_credit: [‘h2_2’,’h2_3’] and num_outside_credit: [3,6], only 3 credits 
+from h2_2 and 6 from h2_3 may be used in h2_1.
+Else, any number of credits/options can be used.
+
+‘optional’ must be set to True only if that section is not actually required (might seem self-explanatory 
+but I did have a slightly different implementation earlier). A section with ‘optional’ set to True must not 
+have num_credits and num_options key.
+If both num_credits and num_options are not present in a h2_x with ‘optional’ set to True AND no other 
+section refers to this section→ This case is kind of unique, but basically means, to achieve 
+total_min_credits for the degree program, you can use courses from this section with no specific number 
+needed
+
+‘concurrent_no’ key holds a list of section keys where concurrent completion of courses is not allowed.
+‘concurrent_yes’ is the opposite.
+For example, if you have a situation like this:
+Art foundations classes are meant to be taken concurrently and the information covered in them is 
+interrelated. Students completing the Foundations Program should enroll in ART 102 Two-Dimensional 
+Design, ART 212 Drawing Methods & Concepts, and ART 108 Foundations of Contemporary Art for the fall 
+semester and complete ART 104 Three-Dimensional Design, ART 107 Introduction to Digital Forms, and ART 
+208 Current Directions in Art in the spring. 
+
+Where courses must be completed concurrently within a semester, you can refer the same section key in 
+‘concurrent_yes’:
+h2_8: {
+     optional: False,
+     num_options: 3,
+     concurrent_yes: [h2_8,...]
+}
+
+For nested structures, if we have to choose one or more sequences within a section, we can use num_options 
+appropriately. However, if there is a nested section case where you need to complete x credits overall and 
+have further specifications per section within the main section, simply use num_credits.
+
+# helper function
+# two modes:
+# First mode: (ongoing_degrees is None)
+# helps filter preferable courses, and number of feasible credits based on ongoing degree programs
+# example if user is already pursuing a degree in CS, it subtracts credits required by CS from
+# total_creds_feasible, and keeps track of courses required by CS
+# Second mode: 
+# does the same but for all courses
+def parse_all_degrees(ongoing_degrees):
+    file_to_open = ''
+    root_chosen = ''
+    for root, _, files in os.walk(DATA_DIR):
+        for file in files:
+            # go over only ongoing degree programs
+            if ongoing_degrees is not None:
+                # -5 to avoid including .json
+                if file[:-5] in ongoing_degrees:
+                    file_to_open = file
+                    root_chosen = root
+            # go over all files
+            else:
+                file_to_open = file
+                root_chosen = root
+            
+            filepath = os.path.join(root, file)
+
+# helper fuction
+# example:
+# input: 'CS/MATH/STAT420'
+#output: ['420', 'CS', 'MATH', 'STAT']
+def parse_course_string(course_str):
+    course_code, course_num = course_str[:-3], course_str[-3:]
+    codes = sorted(course_code.split('/')) if course_code else []
+    return [course_num] + codes 
+
+4zo,m844zi8z4ikm4z3I*4z,o4z,o4z,4z34zfvir,4zfvr8z4mo,4zvfi,4z,o4zo,4z,o4zfv,o4z,fov4zfvo44zfvrz4ik,4z,
+
+‘num_outside_credit’: key is present, only the specified number of credits/options from the outside section can be used in current section

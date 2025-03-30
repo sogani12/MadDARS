@@ -1,0 +1,463 @@
+{
+  "title": "art-education-bs",
+  "flag": "False",
+  "total_min_credits": 86,
+  "total_min_sems": 2,
+  "h2_1": {
+    "optional": "False",
+    "num_credits": 45,
+    "nested": {
+      "h2_1_1": {
+        "h2_1_1_h2_1": {
+          "optional": "False",
+          "num_options": 1,
+          "1": [
+            {
+              "ARTHIST103": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST104": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities",
+                  "Ethnic Studies"
+                ]
+              }
+            },
+            {
+              "ARTHIST203": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST205": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST/AFROAMER241": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST/AFROAMER242": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities",
+                  "Ethnic Studies"
+                ]
+              }
+            },
+            {
+              "ARTHIST305": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST307": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST308": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST354": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities",
+                  "Ethnic Studies"
+                ]
+              }
+            },
+            {
+              "ARTHIST411": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST412": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST/ASIAN428": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST440": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST475": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST479": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            }
+          ],
+          "2": [],
+          "3": []
+        },
+        "h2_1_1_h1": {
+          "1": [
+            {
+              "ART102": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART104": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART107": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART212": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART222": {
+                "credits": "3-4",
+                "breadth": []
+              }
+            },
+            {
+              "ART306": {
+                "credits": "3-4",
+                "breadth": []
+              }
+            },
+            {
+              "ART336": {
+                "credits": "3-4",
+                "breadth": []
+              }
+            },
+            {
+              "ART214": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ART244": {
+                "credits": "3-4",
+                "breadth": []
+              }
+            },
+            {
+              "ART224": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "POLISCI104": {
+                "credits": "3-4",
+                "breadth": [
+                  "Social Science"
+                ]
+              }
+            },
+            {
+              "POLISCI205": {
+                "credits": "3-4",
+                "breadth": [
+                  "Social Science"
+                ]
+              }
+            }
+          ],
+          "2": [
+            [
+              "ART306",
+              "ART336"
+            ],
+            [
+              "ART214",
+              "ART244"
+            ]
+          ]
+        },
+        "h2_1_1_h2_2": {
+          "optional": "False",
+          "num_options": 1,
+          "1": [
+            {
+              "ART176": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ART309": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ART346": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ART348": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ART409": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ART428": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ART448": {
+                "credits": "1-4",
+                "breadth": []
+              }
+            }
+          ],
+          "2": [],
+          "3": []
+        },
+        "h2_1_1_h2_3": {
+          "optional": "False",
+          "num_options": 3,
+          "concurrent_yes": [
+            "h2_3"
+          ],
+          "concurrent_no": [
+            "h2_4"
+          ],
+          "1": [
+            {
+              "ART102": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART108": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ART212": {
+                "credits": 3,
+                "breadth": []
+              }
+            }
+          ],
+          "2": [],
+          "3": []
+        },
+        "h2_1_1_h2_4": {
+          "optional": "False",
+          "num_options": 3,
+          "concurrent_yes": [
+            "h2_4"
+          ],
+          "concurrent_no": [
+            "h2_3"
+          ],
+          "1": [
+            {
+              "ART104": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART107": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART208": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            }
+          ],
+          "2": [],
+          "3": []
+        },
+        "h2_1_1_h2_5": {
+          "optional": "True",
+          "1": [
+            "ART+"
+          ],
+          "2": [],
+          "3": []
+        }
+      }
+    }
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "EDPOL/HISTORY412": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "EDPOL300": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "RP&SE605": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": [
+      "EDPOL/HISTORY412",
+      "EDPOL300"
+    ]
+  },
+  "h1": {
+    "1": [
+      {
+        "CURRIC305": {
+          "credits": 3,
+          "breadth": [
+            "Communication Part B"
+          ]
+        }
+      },
+      {
+        "CURRIC/RP&SE506": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ARTED321": {
+          "credits": 2,
+          "breadth": []
+        }
+      },
+      {
+        "ARTED323": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ARTED324": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ARTED327": {
+          "credits": 6,
+          "breadth": []
+        }
+      },
+      {
+        "ARTED425": {
+          "credits": 2,
+          "breadth": []
+        }
+      },
+      {
+        "ARTED423": {
+          "credits": 5,
+          "breadth": []
+        }
+      },
+      {
+        "ARTED424": {
+          "credits": 5,
+          "breadth": []
+        }
+      }
+    ],
+    "2": []
+  }
+}

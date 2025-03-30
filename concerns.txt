@@ -1,0 +1,6 @@
+particular programs
+mainly to help visualize
+validate any options you find appealing and check department related logistics, footnotes etc
+higher level courses (700-999)
+sh -c "pip install --no-cache-dir -r /home/jovyan/work/dependencies.txt &&
+      playwright install &&

@@ -1,0 +1,110 @@
+{
+    "title": "consumer-behavior-marketplace-studies-bs",
+    "flag": "False",
+    "total_min_credits": 48,
+    "h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "STAT301",
+        "SOC/C&ESOC360",
+        "STAT371",
+        "PSYCH210",
+        "ECON310",
+        "GEOG360"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h1": {
+      "1": [
+        "CNSRSCI257",
+        "CNSRSCI201",
+        "CNSRSCI175",
+        "CNSRSCI657",
+        "CNSRSCI564",
+        "CNSRSCI555",
+        "CNSRSCI250",
+        "INTER-HE202",
+        "CNSRSCI603",
+        "ECON101"
+      ],
+      "2": []
+    },
+    "h2_2": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ACCTIS300",
+        "ACCTIS100",
+        "GENBUS310"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_3": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "GENBUS106",
+        "AAE335"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_4": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "CNSRSCI301",
+        "CNSRSCI561",
+        "CNSRSCI562",
+        "CNSRSCI567"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_5": {
+      "optional": "False",
+      "num_credits": 6,
+      "1": [
+        "CNSRSCI/RELIGST173",
+        "CNSRSCI255",
+        "CNSRSCI273",
+        "CNSRSCI301",
+        "CNSRSCI340",
+        "CNSRSCI360",
+        "CSCS455",
+        "CNSRSCI/HDFS465",
+        "CNSRSCI477",
+        "CNSRSCI501",
+        "CNSRSCI561",
+        "CNSRSCI562",
+        "CNSRSCI567",
+        "CNSRSCI579"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_6": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "MATH112=MATH999"
+      ],
+      "2": [],
+      "3": [],
+      "4": ["MATH141"]
+    },
+    "h2_7": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "CSCS+",
+        "DS+",
+        "HDFS+",
+        "INTER-HE+"
+      ]
+    }
+  }
+  

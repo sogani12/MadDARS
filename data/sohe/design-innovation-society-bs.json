@@ -1,0 +1,107 @@
+{
+    "title": "design-innovation-society-bs",
+    "flag": "False",
+    "total_min_credits": 48,
+    "h1": {
+      "1": [
+        "DS120",
+        "DS123",
+        "DS140",
+        "DS220",
+        "DS221",
+        "DS/GENBUS240",
+        "DS/ANTHRO/ARTHIST/HISTORY/LANDARC264",
+        "DS650",
+        "DS679",
+        "CSCS455",
+        "DS252",
+        "INTER-HE202",
+        "DS601"
+      ],
+      "2": []
+    },
+    "h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "nested": {
+        "h2_1_1": {
+          "h2_1_1_h2_1": {
+            "optional": "False",
+            "num_credits": 9,
+            "1": [
+              "DS355",
+              "DS421",
+              "DS422",
+              "DS430",
+              "ART438",
+              "LANDARC260",
+              "ARTHIST210",
+              "ARTHIST/RELIGST373",
+              "ARTHIST357",
+              "ARTHIST/ASIAN379",
+              "ARTHIST457",
+              "ARTHIST468",
+              "ARTHIST506",
+              "ARTHIST601",
+              "ARTHIST602"
+            ],
+            "2": [],
+            "3": []
+          }
+        },
+        "h2_1_2": {
+          "h2_1_2_h2_1": {
+            "optional": "False",
+            "num_credits": 9,
+            "1": [
+              "DS321",
+              "DS341",
+              "DS521",
+              "DS527",
+              "CSCS125",
+              "CSCS570",
+              "CNSRSCI555",
+              "CNSRSCI561"
+            ],
+            "2": [],
+            "3": []
+          }
+        },
+        "h2_1_3": {
+          "h2_1_3_h2_1": {
+            "optional": "False",
+            "num_credits": 9,
+            "1": [
+              "DS451",
+              "DS/COMPSCI/ISYE518",
+              "CURRIC277",
+              "CURRIC357",
+              "CURRIC432",
+              "ART309",
+              "ENVIRST/CIVENGR/GEOG377",
+              "GEOG170",
+              "GEOG370",
+              "COMPSCI570",
+              "COMARTS155",
+              "COMARTS200",
+              "CIVENGR250"
+            ],
+            "2": [],
+            "3": []
+          }
+        }
+      }
+    },
+    "h2_2": {
+        "optional": "False",
+      "num_options": 1,
+      "1": [
+        "CNSRSCI+",
+        "CSCS+",
+        "DS+",
+        "HDFS+",
+        "INTER-HE+"
+      ]
+    }
+  }
+  

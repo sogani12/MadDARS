@@ -1,0 +1,42 @@
+{
+  "title": "human-ecology.json",
+  "total_min_credits": 27,
+  "h2_1": {
+    "optional": "False",
+    "num_credits": 6,
+    "1": [
+      "Humanities"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_credits": 3,
+    "1": [
+      "Literature"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_credits": 9,
+    "1": [
+      "Social Science"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_credits": 9,
+    "1": [
+      "Biological Sci",
+      "Physical Sci",
+      "Natural Sci"
+    ],
+    "2": [],
+    "3": []
+  }
+}

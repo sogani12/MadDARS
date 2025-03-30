@@ -1,0 +1,985 @@
+compsci_reqs = {
+    title: 'Computer Sciences, BS',  
+    'h1': {
+        1: [  # Basic Computer Sciences courses (15 credits)
+        'COMPSCI/MATH240',
+        'COMPSCI/ECE252',
+        'COMPSCI300',
+        'COMPSCI/ECE354',
+        'COMPSCI400'
+        ],
+        2: [],
+    },
+    'h2_1': {  # Basic Calculus (Choose one sequence: 9-14 credits)
+        'num_options': 1,  # Number of options to choose
+        'num_credits': -1, # not mentioned/num_options mentioned
+        1: [  # All available courses in Basic Calculus
+            'MATH221',
+            'MATH222',
+            'MATH171',
+            'MATH217'
+        ],
+        2: [('MATH221', 'MATH222'),           # Sequence 1
+            ('MATH171', 'MATH217', 'MATH222')], # Sequence 2,  
+        3: []
+    },
+    'h2_2': {  # Additional Mathematics - Linear Algebra (Choose one: 3-5 credits)
+        'num_options': 1,  # Number of options to choose
+        'num_credits': -1, # not mentioned/num_options mentioned
+        1: [  # All available Linear Algebra courses
+            'MATH320',
+            'MATH340',
+            'MATH341',
+            'MATH375'
+        ],
+        2: [],  
+        3: []   
+    },
+    'h2_3': {  # Additional Mathematics - Probability or Statistics (Choose one: 3-4 credits)
+        'num_options': 1,  # Number of options to choose
+        'num_credits': -1, # not mentioned/num_options mentioned
+        1: [  # All available Probability and Statistics courses
+            'STAT/MATH309',
+            'STAT311',
+            'STAT324',
+            'MATH331',
+            'STAT333',
+            'STAT340',
+            'STAT371',
+            'STAT/MATH431',
+            'MATH531'
+        ],
+        2: [],  
+        3: []   
+    },
+    'h2_4': {  # Advanced Computer Science Courses - Theory of Computer Science (Choose one: 3 credits)
+        'num_options': 1,  # Number of options to choose
+        'num_credits': -1, # not mentioned/num_options mentioned
+        1: [  # All available Theory of CS courses
+            'COMPSCI577',
+            'COMPSCI520'
+        ],
+        2: [],  
+        3: []   
+    },
+    'h2_5': {  # Advanced Computer Science Courses - Software & Hardware (Choose two: 6-8 credits)
+        'num_options': 2,  # Number of options to choose
+        'num_credits': -1, # not mentioned/num_options mentioned
+        1: [  # All available Software & Hardware courses
+            'COMPSCI407',
+            'COMPSCI/ECE506',
+            'COMPSCI536',
+            'COMPSCI538',
+            'COMPSCI537',
+            'COMPSCI542',
+            'COMPSCI544',
+            'COMPSCI/ECE552',
+            'COMPSCI564',
+            'COMPSCI640',
+            'COMPSCI642'
+        ],
+        2: [],  # No mutually exclusive constraints within this category
+    },
+    'h2_6': {  # Advanced Computer Science Courses - Applications (Choose one: 3 credits)
+        'num_options': 1,  # Number of options to choose
+        'num_credits': -1, # not mentioned/num_options mentioned
+        1: [  # All available Applications courses
+            'COMPSCI412',
+            'COMPSCI/ISYE/MATH425',
+            'COMPSCI/MATH513',
+            'COMPSCI/MATH514',
+            'COMPSCI/ECE/ISYE524',
+            'COMPSCI/ISYE/MATH/STAT525',
+            'COMPSCI534',
+            'COMPSCI540',
+            'COMPSCI541',
+            'COMPSCI559',
+            'COMPSCI565',
+            'COMPSCI566',
+            'COMPSCI570',
+            'COMPSCI571'
+        ],
+        2: [],  
+        3: []   
+    },
+    'h2_7': {  
+        'num_options': 2,  # Number of options to choose
+        'num_credits': -1, # not mentioned/num_options mentioned
+        1: [  # All available Elective courses
+            'COMPSCI407',
+            'COMPSCI412',
+            'COMPSCI/ISYE/MATH425',
+            'COMPSCI/ECE/MATH435',
+            'COMPSCI/STAT471',
+            'COMPSCI/MATH/STAT475',
+            'COMPSCI/ECE506',
+            'COMPSCI/MATH513',
+            'COMPSCI/MATH514',
+            'COMPSCI/DS/ISYE518',
+            'COMPSCI520',
+            'COMPSCI/ECE/ISYE524',
+            'COMPSCI/ISYE/STAT525',
+            'COMPSCI/ISYE526',
+            'COMPSCI/ECE/ME532',
+            'COMPSCI/ECE533',
+            'COMPSCI534',
+            'COMPSCI536',
+            'COMPSCI537',
+            'COMPSCI538',
+            'COMPSCI/ECE/ME539',
+            'COMPSCI540',
+            'COMPSCI541',
+            'COMPSCI542',
+            'COMPSCI544',
+            'COMPSCI/ECE552',
+            'COMPSCI/ISYE/ME558',
+            'COMPSCI559',
+            'COMPSCI/ECE561',
+            'COMPSCI564',
+            'COMPSCI565',
+            'COMPSCI566',
+            'COMPSCI/BMI567',
+            'COMPSCI570',
+            'COMPSCI571',
+            'COMPSCI/BMI576',
+            'COMPSCI577',
+            'COMPSCI/DS579',
+            'COMPSCI620',
+            'COMPSCI/ISYE635',
+            'COMPSCI640',
+            'COMPSCI642',
+            'COMPSCI639'
+        ],
+        2: [],  
+        3: [('COMPSCI536', 'COMPSCI538')]   
+    }
+}
+
+datasci_reqs = {
+    'title': 'Data Science, BS',
+    'flagged': 'False'
+    'h1': {
+        '1': [
+            'MATH221', 
+            'MATH217', 
+            'MATH222',
+            'STAT240',
+            'STAT340',
+            'COMPSCI220',
+            'COMPSCI300',
+            'COMPSCI320',
+            'LIS461',
+            'ECE/ISYE570'
+            ],
+        '2': [
+            ('MATH221', 'MATH217'),
+            ('COMPSCI220', 'COMPSCI300'),
+            ('LIS461', ECE/ISYE570')
+            ]
+    },
+    'h2_1': {
+        'optional': 'False',
+        'num_options': 1,
+        'num_credits': -1,
+        '1': [
+            'COMPSCI/ECE/ME532',
+            'COMPSCI/ECE/ME539',
+            'COMPSCI540',
+            'GENBUS656',
+            'ISYE521',
+            'MATH535',
+            'PHYSICS361',
+            'STAT451',
+            'STAT453'
+        ],
+        '2': [],
+        '3': []
+    },
+    'h2_2': {
+        'optional': 'False',
+        'num_options': 1,
+        'num_credits': -1,
+        '1': [
+            'COMPSCI400',
+            'COMPSCI412',
+            'COMPSCI/STAT471',
+            'COMPSCI/MATH513',
+            'COMPSCI/MATH514',
+            'COMPSCI/ECE/ISYE524',
+            'COMPSCI544',
+            'COMPSCI564',
+            'COMPSCI565',
+            'COMPSCI/BMI576',
+            'GEOG573',
+            'GEOG574',
+            'MATH444'
+        ],
+        '2': [],
+        '3': []
+    },
+    'h2_3': {
+        'optional': 'False',
+        'num_options': 1,
+        'num_credits': -1,
+        '1': [
+            'ECON400',
+            'ECON410',
+            'ECON460',
+            'GEOG579',
+            'ISYE575',
+            'STAT/MATH309',
+            'STAT311',
+            'MATH/STAT431',
+            'STAT/MATH310',
+            'STAT312',
+            'STAT349',
+            'STAT351',
+            'STAT421',
+            'STAT/ME424',
+            'STAT436',
+            'STAT443',
+            'STAT456',
+            'STAT461',
+            'STAT575',
+            'MATH531',
+            'MATH/ISYE/OTM/STAT632',
+            'MATH635'
+        ],
+        '2': [
+            ('STAT/MATH309', 'STAT311', 'MATH/STAT431'),
+            ('STAT/MATH310', 'STAT312')
+        ],
+        '3': []
+    },
+    'h2_4': {
+        'optional': 'False',
+        'num_options': 1,
+        'num_credits': -1,
+        '1': [
+            'MATH320',
+            'MATH340',
+            'MATH341',
+            'MATH375'
+        ],
+        '2': [],
+        '3': [
+            'MATH320',
+            'MATH340',
+            'MATH341',
+            'MATH375'
+        ]
+    },
+    'h2_5': {
+        'optional': 'False',
+        'outside_credit': ['h2_1', 'h2_2', 'h2_3', 'h2_4'],
+        'num_options': -1,
+        'num_credits': 6,
+        '1': [
+            'COMPSCI/ISYE/MATH425',
+            'COMPSCI/ISYE/MATH/STAT525',
+            'COMPSCI/ECE533',
+            'COMPSCI559',
+            'COMPSCI/BMI567',
+            'COMPSCI577',
+            'ECE203',
+            'ECON315',
+            'ECON570',
+            'ECON695',
+            'GEOG378',
+            'GEOG572',
+            'GEOG575',
+            'ISYE323',
+            'ISYE412',
+            'ISYME/ME512',
+            'ISYE612',
+            'INFOSYS322',
+            'LIS407',
+            'LIS440',
+            'LIS464',
+            'LIS501',
+            'LSC460',
+            'LSC660',
+            'MATH331',
+            'SOC351',
+            'SOC/C&ESOC618',
+            'SOC/C&ESOC693',
+            'SOILSCI585',
+            'STAT405',
+            'STAT433'
+        ],
+        '2': [],
+        '3': []
+    }
+}
+
+neurobio_reqs = {
+    'title': 'Neurobiology, BS',
+    'total_min_credits': 52,
+    'flagged': 'False',
+    'h1': {
+        '1': ['ZOOLOGY/PSYCH523', 'PSYCH454', 'ZOOLOGY500'],
+        '2': []
+    },
+    'h2_1': {
+        'optional': 'False',
+        'num_options': 1,
+        '1': ['MATH211', 'MATH217', 'MATH221'],
+        '2': [],
+        '3': []
+    },
+    'h2_2': {
+        'optional': 'False',
+        'num_options': 1,
+        '1': ['STAT371', 'STAT/BMI541'],
+        '2': [],
+        '3': []
+    },
+    'h2_3': {
+        'optional': 'False',
+        'num_options': 1,
+        '1': ['CHEM103', 'CHEM104', 'CHEM109', 'CHEM115', 'CHEM116'],
+        '2': [('CHEM103', 'CHEM104'), ('CHEM115', 'CHEM116')],
+        '3': []
+    }, 
+    'h2_4': {
+        'optional': 'False',
+        'num_options': 1,
+        '1': ['CHEM341', 'CHEM343', 'CHEM345'],
+        '2': [('CHEM343', 'CHEM345')],
+        '3': []
+    },
+    'h2_5': {
+        'optional': 'False',
+        'num_options': 1,
+        '1': [
+            'PHYSICS103',
+            'PHYSICS104',
+            'PHYSICS201',
+            'PHYSICS202',
+            'PHYSICS207',
+            'PHYSICS208',
+            'PHYSICS247',
+            'PHYSICS248'
+        ],
+        '2': [
+            ('PHYSICS103', 'PHYSICS104'),
+            ('PHYSICS201', 'PHYSICS202'),
+            ('PHYSICS207', 'PHYSICS208'),
+            ('PHYSICS247', 'PHYSICS248')
+        ],
+        '3': []
+    },
+    'h2_6': {
+        'optional': 'False',
+        'num_options': 1,
+        'nested': {
+            'h2_6_1': {
+                'h1': {
+                    '1': ['ZOOLOGY/BIOLOGY/BOTANY151', 'ZOOLOGY/BIOLOGY/BOTANY152'],
+                    '2': []
+                }
+            },
+            'h2_6_2': {
+                'h1': {
+                    '1': ['BIOCORE381', 'BIOCORE383', 'BIOCORE485', 'BIOCORE587'],
+                    '2': []
+                },
+                'h2_1': {
+                    'optional': 'False',
+                    'num_options': 2,
+                    '1': ['BIOCORE382', 'BIOCORE384', 'BIOCORE486'],
+                    '2': [],
+                    '3': []
+                }
+            },
+            'h2_6_3': {
+                'h1': {
+                    '1': ['ZOOLOGY/BIOLOGY101', 'ZOOLOGY/BIOLOGY102', 'BOTANY/BIOLOGY130'],
+                    '2': []
+                }
+            }
+        }
+    },
+    'h2_7': {
+        'optional': 'False',
+        'outside_credit': ['h2_8_1'],
+        'num_options': 3,
+        '1': [
+            'ANAT&PHY335',
+            'ANAT&PHY435',
+            'ANSCI/DYSCI373',
+            'BIOCHEM501',
+            'BIOCHEM508',
+            'BIOCHEM/NUTRSCI645',
+            'BME520',
+            'BME602',
+            'CS&D210',
+            'CS&D503',
+            'EDPSYCH326',
+            'EDPSYCH506',
+            'GENETICS520',
+            'KINES531',
+            'NEURODPT/ZOOLOGY616',
+            'NTP/NEURODPT610',
+            'NTP/NEURODPT/PSYCH611',
+            'NTP/NEURODPT629',
+            'NTP/NEURODPT640',
+            'NTP/MEDPHYS651',
+            'NTP666',
+            'NTP670',
+            'NTP675',
+            'NTP677',
+            'PHARMACY632',
+            'PHMSCI310',
+            'PHMSCI521',
+            'PSYCH406',
+            'PSYCH414',
+            'PSYCH505',
+            'PSYCH513',
+            'PSYCH601',
+            'PSYCH603',
+            'PSYCH606',
+            'PSYCH612',
+            'ZOOLOGY400',
+            'ZOOLOGY470',
+            'ZOOLOGY555',
+            'ZOOLOGY603',
+            'ZOOLOGY604',
+            'ZOOLOGY611',
+            'ZOOLOGY/ANTHRO/NTP/PSYCH619',
+            'ZOOLOGY/NTP620',
+            'ZOOLOGY625',
+            'ZOOLOGY655',
+            'ZOOLOGY/NEURODPT/PSYCH674'
+        ],
+        '2': [],
+        '3': [
+            'ANAT&PHY335',
+            'ANAT&PHY435',
+            'BIOCHEM501',
+            'BIOCHEM508',
+            'BIOCHEM/NUTRSCI645',
+            'BME520',
+            'ZOOLOGY470',
+            ]
+    },
+    'h2_8': {
+        'optional': 'False',
+        'covered_outside': ['True'],
+        'num_options': 1,
+        'nested': {
+            'h2_8_1': {
+                'h2_1': {
+                    'optional': 'False',
+                    'num_options': 1,
+                    '1': [
+                        'BIOCORE486',
+                        'ANAT&PHY435',
+                        'NTP/NEURODPT640',
+                        'ZOOLOGY555',
+                        'ZOOLOGY604',
+                        'ZOOLOGY612',
+                        'ZOOLOGY/NEURODPT616'
+                    ],
+                    '2': [],
+                    '3': []
+                }
+            },
+            'h2_8_2': {
+                'h2_1': {
+                    'optional': 'False;,
+                    'concurrent_no': ['h2_6_1'],
+                    'num_credits': 3,
+                    '1': [
+                        'ANATOMY699',
+                        'ANESTHES699',
+                        'BIOCHEM699',
+                        'BIOLOGY699',
+                        'BME399',
+                        'BMOLCHEM699',
+                        'CBE699',
+                        'CHEM699',
+                        'COMPBIO699',
+                        'CRB699',
+                        'CS&D699',
+                        'EDPSYCH470',
+                        'EDPSYCH699',
+                        'FAMMED699',
+                        'GENETICS699',
+                        'HONCOL699',
+                        'KINES399',
+                        'KINES699',
+                        'MEDPHYS699',
+                        'MEDICINE699',
+                        'MEDSC-V669',
+                        'MM&I699',
+                        'MOLBIOL699',
+                        'NEURSURG699',
+                        'NEUROL699',
+                        'NEURODPT699',
+                        'NUTRSCI699',
+                        'OBS&GYN699',
+                        'ONCOLOGY699',
+                        'OPHTHALM699',
+                        'PATH699',
+                        'PATH-BIO699',
+                        'PEDIAT699',
+                        'PHMCOL-M699',
+                        'PHMSCI699',
+                        'PHYSIOL699',
+                        'POPHLTH699',
+                        'PSYCH621',
+                        'PSYCH699',
+                        'PSYCHIAT699',
+                        'SURGERY699',
+                        'SURGSCI699',
+                        'ZOOLOGY699'
+                    ],
+                    '2': [],
+                    '3': []
+                }
+            },
+            'h2_8_3': {
+                'h2_1': {
+                    'optional': 'False',
+                    'num_options': 1,
+                    '1': [
+                        'ZOOLOGY681',
+                        'ZOOLOGY682',
+                        'ZOOLOGY691',
+                        'ZOOLOGY692',
+                        'BME389',
+                        'BME489'
+                    ],
+                    '2': [
+                        ('ZOOLOGY681', 'ZOOLOGY682'),
+                        ('ZOOLOGY691', 'ZOOLOGY692'),
+                        ('BME389', 'BME489')
+                    ],
+                    '3': []
+                }
+            }
+        }
+    },
+    'h2_9': {
+        'optional': 'True',
+        'outside_credit': ['h2_7', 'h2_8_2'],
+        '1': [
+            'ANAT&PHY337',
+            'ANAT&PHY338',
+            'ANSCI/DYSCI362'
+            'ANSCI/DYSCI434',
+            'ANSCI/F&WECOL/ZOOLOGY520',
+            'ANSCI610',
+            'ANATOMY329',
+            'BIOCHEM507',
+            'BIOCHEM/NUTRSCI510',
+            'BIOCHEM601',
+            'BIOCHEM/GENETICS/MICROBIO612',
+            'BIOCHEM/GENETICS/MDGENET620',
+            'BIOCHEM625',
+            'F&WECOL401',
+            'GENETICS466',
+            'GENETICS545',
+            'GENETICS/MDGENET620',
+            'KINES200',
+            'KINES227',
+            'KINES314',
+            'MM&I301',
+            'MM&I341',
+            'MM&I/ENTOM/PATH-BIO/ZOOLOGY350',
+            'MM&I/BIOCHEM575',
+            'MICROBIO303',
+            'MICROBIO304',
+            'MICROBIO330',
+            'MICROBIO450',
+            'MICROBIO470',
+            'MICROBIO/SOILSCI523',
+            'MICROBIO526',
+            'MICROBIO527',
+            'MICROBIO551',
+            'MICROBIO607',
+            'PATH-BIO/MM&I528',
+            'PLPATH/MM&I/ONCOLOGY640',
+            'MICROBIO/BMOLCHEM668',
+            'NTP/NEURODPT/PSYCH611',
+            'NTP660',
+            'NUTRSCI431',
+            'NUTRSCI631',
+            'ONCOLOGY401',
+            'ONCOLOGY/MM&I/PLPATH640',
+            'PHMSCI558',
+            'PSYCH449',
+            'PSYCH450',
+            'PSYCH505',
+            'ZOOLOGY/ANTHRO/BOTANY410',
+            'ZOOLOGY425',
+            'ZOOLOGY430',
+            'ZOOLOGY470',
+            'ZOOLOGY/GEOSCI541',
+            'ZOOLOGY/GEOSCI542',
+            'ZOOLOGY570'
+        ],
+        '2': [],
+        '3': []
+    }
+}
+
+genetics_reqs = {
+  "title": "Genetics and Genomics, BS",
+  "flag": "False",
+  "total_min_credits": 65,
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      ["MATH221", 5],
+      ["MATH171", 5],
+      ["MATH217", 5]
+    ],
+    "2": [
+      ("MATH171", "MATH217")
+    ],
+    "3": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      ["STAT371", 3],
+      ["STAT301", 3],
+      ["STAT240", 4]
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      ["CHEM103", 4],
+      ["CHEM104", 5],
+      ["CHEM109", 5],
+      ["CHEM115", 5],
+      ["CHEM116", 5]
+    ],
+    "2": [
+      ("CHEM103", "CHEM104"),
+      ("CHEM115", "CHEM116")
+    ],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "CHEM341",
+      "CHEM343",
+      "CHEM345"
+    ],
+    "2": [
+      ("CHEM343", "CHEM345")
+    ],
+    "3": []
+  },
+  "h2_5": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "PHYSICS103",
+      "PHYSICS104",
+      "PHYSICS201",
+      "PHYSICS202",
+      "PHYSICS207",
+      "PHYSICS208"
+    ],
+    "2": [
+      ("PHYSICS103", "PHYSICS104"),
+      ("PHYSICS201", "PHYSICS202"),
+      ("PHYSICS207", "PHYSICS208")
+    ],
+    "3": []
+  },
+  "h2_6": {
+    "optional": "False",
+    "num_options": 1,
+    "nested": {
+      "h2_6_1": {
+        "h1": {
+          "1": [
+            "BIOLOGY/BOTANY/ZOOLOGY151",
+            "BIOLOGY/BOTANY/ZOOLOGY152"
+          ],
+          "2": []
+        }
+      },
+      "h2_6_2": {
+        "h1": {
+          "1": [
+            "BOTANY/BIOLOGY130",
+            "ZOOLOGY/BIOLOGY101",
+            "ZOOLOGY/BIOLOGY102"
+          ],
+          "2": []
+        }
+      },
+      "h2_6_3": {
+        "h1": {
+          "1": [
+            "BIOCORE381",
+            "BIOCORE383"
+          ],
+          "2": []
+        },
+        "h2_1": {
+          "optional": "False",
+          "num_options": 2,
+          "1": [
+            "BIOCORE382",
+            "BIOCORE384",
+            "BIOCORE486"
+          ],
+          "2": [],
+          "3": []
+        }
+      }
+    }
+  },
+  "h2_7": {
+    "optional": "False",
+    "num_credits": 9,
+    "1": [
+      "GENETICS520",
+      "GENETICS/BIOLOGY522",
+      "GENETICS525",
+      "GENETICS527",
+      "GENETICS528",
+      "GENETICS548",
+      "GENETICS564",
+      "GENETICS/MDGENET565",
+      "GENETICS566",
+      "GENETICS588",
+      "GENETICS605",
+      "GENETICS/BIOCHEM/MICROBIO612",
+      "GENETICS/BIOCHEM/MDGENET620",
+      "GENETICS/CHEM626",
+      "GENETICS627",
+      "GENETICS/BIOCHEM631",
+      "GENETICS633",
+      "GENETICS/BOTANY/MM&I/PLPATH655",
+      "GENETICS/MDGENET662",
+      "GENETICS/MDGENET677",
+      "GENETICS/HORT550"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_8": {
+    "optional": "False",
+    "num_credits": 6,
+    "1": [
+      "BIOCHEM508",
+      "BIOCHEM/NUTRSCI560",
+      "CHEM344",
+      "CHEM345",
+      "BIOCHEM/MM&I575",
+      "BIOCORE485",
+      "BIOCORE587",
+      "BOTANY/ANTHRO/ZOOLOGY410",
+      "BOTANY/PLPATH563",
+      "MICROBIO303",
+      "MICROBIO304",
+      "MICROBIO470",
+      "MICROBIO/ONCOLOGY545",
+      "MICROBIO632",
+      "MM&I341",
+      "MM&I/PATH-BIO528",
+      "PHMSCI490",
+      "PLPATH622",
+      "PLPATH/MM&I/ONCOLOGY640",
+      "ZOOLOGY/ENVIRST/F&WECOL360",
+      "ZOOLOGY425",
+      "ZOOLOGY470",
+      "ZOOLOGY555",
+      "ZOOLOGY570",
+      "AGRONOMY/HORT338",
+      "AGRONOMY/BOTANY/HORT340",
+      "AGRONOMY/HORT360",
+      "AGRONOMY/HORT501",
+      "AGRONOMY/HORT502",
+      "ANSCI/DYSCI361",
+      "ANSCI/DYSCI362",
+      "ANSCI/DYSCI363",
+      "PLPATH/BOTANY/ENTOM505",
+      "BMI/COMPSCI576",
+      "BIOCHEM570"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_9": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "BIOCHEM501",
+      "BIOCHEM507",
+      "BIOCHEM508"
+    ],
+    "2": [
+      ("BIOCHEM507", "BIOCHEM508")
+    ],
+    "3": []
+  },
+  "h2_10": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "GENETICS467",
+      "GENETICS468",
+      "GENETICS466"
+    ],
+    "2": [
+      ("GENETICS467", "GENETICS468")
+    ],
+    "3": []
+  },
+  "h2_11": {
+    "optional": "False",
+    "num_credits": 2,
+    "1": [
+      "GENETICS545",
+      "GENETICS299",
+      "GENETICS699",
+      "GENETICS681",
+      "GENETICS682",
+      "GENETICS399"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_12": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "GENETICS/BIOLOGY522",
+      "GENETICS527",
+      "GENETICS564",
+      "GENETICS566",
+      "GENETICS699",
+      "GENETICS567",
+      "GENETICS681",
+      "GENETICS682"
+    ],
+    "2": [
+      ("GENETICS699", "GENETICS567"),
+      ("GENETICS681", "GENETICS682", "GENETICS567")
+    ],
+    "3": []
+  }
+}
+
+math_reqs = {
+  "title": "Mathematics, BS",
+  "flag": "False",
+  "total_min_credits": 21,
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "MATH320",
+      "MATH340",
+      "MATH341",
+      "MATH375"
+    ],
+    "2": [],
+    "3": [
+      ("MATH320", "MATH340", "MATH341", "MATH375")
+    ]
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 2,
+    "1": [
+      "MATH521",
+      "MATH541",
+      "MATH551"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "MATH/COMPSCI513",
+      "MATH/COMPSCI514",
+      "MATH519",
+      "MATH521",
+      "MATH522",
+      "MATH/COMPSCI/ISYE/STAT525",
+      "MATH531",
+      "MATH535",
+      "MATH540",
+      "MATH541",
+      "MATH542",
+      "MATH551",
+      "MATH552",
+      "MATH561",
+      "MATH567",
+      "MATH570",
+      "MATH/PHILOS571",
+      "MATH605",
+      "MATH607",
+      "MATH/BMI/BIOCHEM/BMOLCHEM609",
+      "MATH616",
+      "MATH619",
+      "MATH621",
+      "MATH623",
+      "MATH627",
+      "MATH629",
+      "MATH/ISYE/OTM/STAT632",
+      "MATH635",
+      "MATH/ECE641",
+      "MATH681",
+      "MATH682",
+      "MATH691",
+      "MATH692",
+      "MATH698",
+      "MATH699"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_credits": 9,
+    "1": [
+      "MATH/STAT431",
+      "MATH/STAT309",
+      "MATH/STAT310",
+      "MATH319",
+      "MATH376",
+      "MATH321",
+      "MATH322",
+      "MATH390",
+      "MATH407",
+      "MATH415",
+      "MATH421",
+      "MATH/COMPSCI/ISYE425",
+      "MATH/COMPSCI/ECE435",
+      "MATH443",
+      "MATH444",
+      "MATH461",
+      "MATH467",
+      "MATH/HISTSCI473",
+      "MATH/COMPSCI/STAT475",
+      "MATH490",
+      "MATH491"
+    ],
+    "2": [],
+    "3": [
+      ("MATH/STAT309", "MATH/STAT431"),
+      ("MATH319", "MATH376")
+    ]
+  }
+}

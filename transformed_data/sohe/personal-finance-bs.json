@@ -1,0 +1,277 @@
+{
+  "title": "personal-finance-bs",
+  "flag": "False",
+  "total_min_credits": 49,
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "GENBUS106": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "AAE335": {
+          "credits": 2,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h1": {
+    "1": [
+      {
+        "CNSRSCI201": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI275": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI355": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI301": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ACCTIS100": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ACCTIS300": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "CNSRSCI477": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI555": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI657": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI251": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "INTER-HE202": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI601": {
+          "credits": "1-8",
+          "breadth": []
+        }
+      },
+      {
+        "ECON101": {
+          "credits": 4,
+          "breadth": [
+            "Social Science",
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "ECON102": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      }
+    ],
+    "2": [
+      [
+        "CNSRSCI355",
+        "CNSRSCI301"
+      ],
+      [
+        "ACCTIS100",
+        "ACCTIS300"
+      ]
+    ]
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_credits": 6,
+    "1": [
+      {
+        "CNSRSCI/RELIGST173": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI255": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI273": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "CNSRSCI301": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI340": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI355": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI360": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "CSCS455": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI/HDFS465": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "CNSRSCI579": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "STAT301": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "SOC/C&ESOC360": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "STAT371": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "PSYCH210": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "ECON310": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "GEOG360": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "MATH112=MATH999"
+    ],
+    "2": [],
+    "3": [],
+    "4": [
+      "MATH141"
+    ]
+  }
+}

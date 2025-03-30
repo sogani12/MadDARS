@@ -1,0 +1,53 @@
+{
+    "title": "community-organizational-development-bs",
+    "flag": "False",
+    "total_min_credits": 41,
+    "h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "STAT301", 
+        "SOC/C&ESOC360",
+        "STAT371",
+        "PSYCH210",
+        "ECON310",
+        "GEOG360"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h1": {
+      "1": [
+        "CSCS125",
+        "CSCS300",
+        "CSCS345",
+        "CSCS510",
+        "CSCS570",
+        "CSCS600",
+        "CSCS254",
+        "INTER-HE202",
+        "CSCS601"
+      ],
+      "2": []
+    },
+    "h2_2": {
+      "optional": "False",
+      "num_credits": 9,
+      "1": [
+        "CSCS+"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_3": {
+      "optional": "False",
+      "num_credits": 6,
+      "1": [
+        "CNSRSCI+",
+        "DS+",
+        "HDFS+",
+        "INTER-HE+"
+      ]
+    }
+  }
+  

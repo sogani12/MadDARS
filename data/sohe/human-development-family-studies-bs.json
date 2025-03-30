@@ -1,0 +1,105 @@
+{
+    "title": "human-development-family-studies-bs",
+    "flag": "False",
+    "total_min_credits": 38,
+    "h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "HDFS262",
+        "EDPSYCH320",
+        "PSYCH460"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h1": {
+      "1": [
+        "HDFS263",
+        "HDFS253",
+        "INTER-HE202",
+        "HDFS601",
+        "PSYCH202"
+      ],
+      "2": []
+    },
+    "h2_2": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "HDFS174",
+        "HDFS/CNSRSCI465",
+        "HDFS474"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_3": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "HDFS471",
+        "HDFS516",
+        "HDFS517"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_4": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "HDFS462",
+        "HDFS464",
+        "HDFS469",
+        "HDFS535"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_5": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "HDFS345",
+        "HDFS650",
+        "HDFS663"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_6": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "SOC/C&ESOC360",
+        "STAT301",
+        "STAT371",
+        "PSYCH210"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_7": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "HDFS425",
+        "PSYCH225",
+        "SOC/C&ESOC357"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_8": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "CSCS+",
+        "DS+",
+        "CNSRSCI+",
+        "INTER-HE+"
+      ]
+    }
+  }
+  

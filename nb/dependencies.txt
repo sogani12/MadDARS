@@ -2,3 +2,11 @@ psycopg2-binary
 sqlalchemy
 pandas
 bitarray
+crawl4ai[transformer]
+langchain
+langchain-community
+langchain-openai
+python-dotenv
+transformers
+torch
+pydantic

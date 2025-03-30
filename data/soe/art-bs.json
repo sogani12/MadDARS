@@ -1,0 +1,122 @@
+{
+    "title": "art-bs",
+    "flag": "False",
+    "total_min_credits": 45,
+    "total_min_sems": 2,
+    "h1": {
+      "1": [
+        "ART508",
+        "ART500=ART699"
+      ],
+      "2": [],
+      "4": ["ART508", "ART608", "ART699"]
+    },
+    "h2_1": {
+      "optional": "False",
+      "num_options": 2,
+      "1": [
+        "ARTHIST201",
+        "ARTHIST202",
+        "ARTHIST205",
+        "ART438"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_2": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ART222",
+        "ART232",
+        "ART242",
+        "ART302",
+        "ART312"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_3": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ART214",
+        "ART224",
+        "ART244",
+        "ART334",
+        "ART343",
+        "ART354",
+        "ART454"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_4": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ART309",
+        "ART318",
+        "ART338",
+        "ART409",
+        "ART428",
+        "ART429",
+        "ART470",
+        "ART521",
+        "ART531"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_5": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ART306",
+        "ART316",
+        "ART326",
+        "ART336",
+        "ART346",
+        "ART348",
+        "ART376",
+        "ART446"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_6": {
+        "optional": "True",
+        "1": [
+            "ART+"
+        ],
+        "2": [],
+        "3": []
+    },
+    "h2_7": {
+        "optional": "False",
+        "num_options": 3,
+        "concurrent_yes": ["h2_7"],
+        "concurrent_no": ["h2_8"],
+        "1": [
+            "ART102",
+            "ART108",
+            "ART212"
+        ],
+        "2": [],
+        "3": []
+    },
+    "h2_8": {
+        "optional": "False",
+        "num_options": 3,
+        "concurrent_yes": ["h2_8"],
+        "concurrent_no": ["h2_7"],
+        "1": [
+            "ART104",
+            "ART107",
+            "ART208"
+        ],
+        "2": [],
+        "3": []
+    }
+  }
+  

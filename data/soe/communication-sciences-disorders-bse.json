@@ -1,0 +1,101 @@
+{
+    "title": "communication-sciences-disorders-bse",
+    "flag": "False",
+    "total_min_credits": 71,
+    "h1": {
+      "1": [
+        "RP&SE300",
+        "CS&D201",
+        "CS&D202",
+        "CS&D210",
+        "CS&D240",
+        "CS&D303",
+        "CS&D315",
+        "CS&D318",
+        "CS&D320",
+        "CS&D371",
+        "CS&D425",
+        "CS&D440",
+        "EDPSYCH301",
+        "EDPOL300",
+        "CURRIC305",
+        "POLISCI104",
+        "POLISCI205"
+      ],
+      "2": []
+    },
+    "h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "STAT301",
+        "STAT311",
+        "STAT371",
+        "PSYCH210",
+        "SOC/C&ESOC360"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_2": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ENGL314",
+        "ENGL316",
+        "LINGUIS101",
+        "LINGUIS/ANTHRO301"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_3": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ANTHRO104",
+        "ASIANAM101",
+        "CHICLA201",
+        "SOC134",
+        "SOC/ASIANAM220"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_4": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ANTHRO105",
+        "PHYSICS103",
+        "PHYSICS109",
+        "GEN&WS103",
+        "BIOLOGY/ZOOLOGY101"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_5": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "EDPSYCH320",
+        "EDPSYCH321",
+        "PSYCH460"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_6": {
+      "optional": "False",
+      "num_credits": 3,
+      "1": [
+        "EDPSYCH+",
+        "EDPOL+",
+        "ARTED+"
+      ],
+      "2": [],
+      "3": []
+    }
+  }
+  

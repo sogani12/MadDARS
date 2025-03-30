@@ -1,0 +1,68 @@
+{
+    "title": "material-culture-studies-certificate",
+    "flag": "False",
+    "total_min_credits": 13,
+    "h1": {
+      "1": [
+        "ARTHIST/ANTHRO/DS/HISTORY/LANDARC264",
+        "ARTHIST563"
+      ],
+      "2": []
+    },
+    "h2_1": {
+      "optional": "False",
+      "num_options": 2,
+      "1": [
+        "ANTHRO212",
+        "ANTHRO337",
+        "ANTHRO352",
+        "ANTHRO/AMERIND354",
+        "ANTHRO370",
+        "ANTHRO391",
+        "ANTHRO696",
+        "ARTHIST210",
+        "ARTHIST/CLASSICS300",
+        "ARTHIST/CLASSICS304",
+        "ARTHIST305",
+        "ARTHIST307",
+        "ARTHIST308",
+        "ARTHIST/DS363",
+        "ARTHIST364",
+        "ARTHIST/RELIGST373",
+        "ARTHIST/ASIAN379",
+        "ARTHIST413",
+        "ARTHIST/ASIAN428",
+        "ARTHIST440",
+        "ARTHIST457",
+        "ARTHIST468",
+        "ARTHIST475",
+        "ARTHIST/RELIGST478",
+        "ARTHIST506",
+        "ARTHIST601",
+        "ARTHIST602",
+        "ARTHIST/HISTORY/JOURN/LIS650",
+        "DS355",
+        "DS421",
+        "DS422",
+        "DS430",
+        "DS642",
+        "FOLKLORE320",
+        "FOLKLORE439",
+        "FOLKLORE/LIS490",
+        "FOLKLORE/ANTHRO520",
+        "FOLKLORE540",
+        "GEOG/URBRPL305",
+        "GEOG342",
+        "HISTSCI222",
+        "JOURN/HISTORY560",
+        "LANDARC260",
+        "LANDARC677",
+        "SCANDST296",
+        "SCANDST/FOLKLORE440",
+        "THEATRE327"
+      ],
+      "2": [],
+      "3": []
+    }
+  }
+  

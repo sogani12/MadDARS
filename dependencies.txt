@@ -1,4 +1,2 @@
-psycopg2-binary
-sqlalchemy
 pandas
-bitarray
+flask

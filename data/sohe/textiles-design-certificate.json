@@ -1,0 +1,51 @@
+{
+    "title": "textiles-design-certificate",
+    "flag": "False",
+    "total_min_credits": 12,
+    "h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "DS251",
+        "DS355",
+        "DS430",
+        "DS561"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_2": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "DS101",
+        "DS153",
+        "DS154",
+        "DS215",
+        "DS227",
+        "DS228",
+        "DS/ART229",
+        "DS327",
+        "DS427",
+        "DS429",
+        "DS451",
+        "DS/COMPSCI/ISYE518",
+        "DS519",
+        "DS527",
+        "DS528",
+        "DS529",
+        "DS570"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_3": {
+        "optional": "False",
+        "num_credits": 7,
+        "outside_credit": ["h2_1", "h2_2"],
+        "1": [],
+        "2": [],
+        "3": []
+    }
+  }
+  

@@ -1,0 +1,134 @@
+{
+    "title": "art-education-bs",
+    "flag": "False",
+    "total_min_credits": 86,
+    "total_min_sems": 2,
+    "h2_1": {
+      "optional": "False",
+      "num_credits": 45,
+      "nested": {
+    "h2_1_1": {
+    "h2_1_1_h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "ARTHIST103",
+        "ARTHIST104",
+        "ARTHIST203",
+        "ARTHIST205",
+        "ARTHIST/AFROAMER241",
+        "ARTHIST/AFROAMER242",
+        "ARTHIST305",
+        "ARTHIST307",
+        "ARTHIST308",
+        "ARTHIST354",
+        "ARTHIST411",
+        "ARTHIST412",
+        "ARTHIST/ASIAN428",
+        "ARTHIST440",
+        "ARTHIST475",
+        "ARTHIST479"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_1_1_h1": {
+      "1": [
+        "ART102",
+        "ART104",
+        "ART107",
+        "ART212",
+        "ART222",
+        "ART306",
+        "ART336",
+        "ART214",
+        "ART244",
+        "ART224",
+        "ART202",
+        "POLISCI104",
+        "POLISCI205"
+      ],
+      "2": [
+        ["ART306", "ART336"],
+        ["ART214", "ART244"]
+      ]
+    },
+    "h2_1_1_h2_2": {
+        "optional": "False",
+        "num_options": 1,
+        "1": [
+        "ART176",
+        "ART309",
+        "ART346",
+        "ART348",
+        "ART409",
+        "ART428",
+        "ART448"
+        ],
+        "2": [],
+        "3": []
+    },
+    "h2_1_1_h2_3": {
+        "optional": "False",
+        "num_options": 3,
+        "concurrent_yes": ["h2_3"],
+        "concurrent_no": ["h2_4"],
+        "1": [
+            "ART102",
+            "ART108",
+            "ART212"
+        ],
+        "2": [],
+        "3": []
+    },
+    "h2_1_1_h2_4": {
+        "optional": "False",
+        "num_options": 3,
+        "concurrent_yes": ["h2_4"],
+        "concurrent_no": ["h2_3"],
+        "1": [
+            "ART104",
+            "ART107",
+            "ART208"
+        ],
+        "2": [],
+        "3": []
+    },
+    "h2_1_1_h2_5": {
+      "optional": "True",
+      "1": [
+        "ART+"
+      ],
+      "2": [],
+      "3": []
+    }
+  }
+}
+},
+    "h2_2": {
+        "optional": "False",
+        "num_options": 1,
+        "1": [
+        "EDPOL/HISTORY412",
+        "EDPOL300",
+        "RP&SE605"
+        ],
+        "2": [],
+        "3": ["EDPOL/HISTORY412", "EDPOL300"]
+    },
+    "h1": {
+      "1": [
+        "CURRIC305",
+        "CURRIC/RP&SE506",
+        "ARTED321",
+        "ARTED323",
+        "ARTED324",
+        "ARTED327",
+        "ARTED425",
+        "ARTED423",
+        "ARTED424"
+      ],
+      "2": []
+    }
+  }
+  

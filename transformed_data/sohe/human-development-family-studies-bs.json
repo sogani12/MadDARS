@@ -1,0 +1,282 @@
+{
+  "title": "human-development-family-studies-bs",
+  "flag": "False",
+  "total_min_credits": 38,
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "HDFS262": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "EDPSYCH320": {
+          "credits": "2-3",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "PSYCH460": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h1": {
+    "1": [
+      {
+        "HDFS263": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "HDFS253": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "INTER-HE202": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "HDFS601": {
+          "credits": "1-8",
+          "breadth": []
+        }
+      },
+      {
+        "PSYCH202": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      }
+    ],
+    "2": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "HDFS174": {
+          "credits": 3,
+          "breadth": [
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "HDFS/CNSRSCI465": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "HDFS474": {
+          "credits": 3,
+          "breadth": [
+            "Ethnic Studies"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "HDFS471": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "HDFS516": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "HDFS517": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "HDFS462": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "HDFS464": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "HDFS469": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "HDFS535": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_5": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "HDFS345": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "HDFS650": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "HDFS663": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_6": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "SOC/C&ESOC360": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "STAT301": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "STAT371": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "PSYCH210": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_7": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "HDFS425": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "PSYCH225": {
+          "credits": 4,
+          "breadth": [
+            "Biological Sci",
+            "Communication Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "SOC/C&ESOC357": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_8": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "CSCS+",
+      "DS+",
+      "CNSRSCI+",
+      "INTER-HE+"
+    ]
+  }
+}

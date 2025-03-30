@@ -1,0 +1,396 @@
+{
+  "title": "material-culture-studies-certificate",
+  "flag": "False",
+  "total_min_credits": 13,
+  "h1": {
+    "1": [
+      {
+        "ARTHIST/ANTHRO/DS/HISTORY/LANDARC264": {
+          "credits": 4,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST563": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      }
+    ],
+    "2": []
+  },
+  "h2_1": {
+    "optional": "False",
+    "num_options": 2,
+    "1": [
+      {
+        "ANTHRO212": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "ANTHRO337": {
+          "credits": 3,
+          "breadth": [
+            "Humanities",
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "ANTHRO352": {
+          "credits": 3,
+          "breadth": [
+            "Social Science",
+            "Communication Part B"
+          ]
+        }
+      },
+      {
+        "ANTHRO/AMERIND354": {
+          "credits": 3,
+          "breadth": [
+            "Social Science",
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "ANTHRO370": {
+          "credits": "3-6",
+          "breadth": []
+        }
+      },
+      {
+        "ANTHRO391": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ANTHRO696": {
+          "credits": "1-3",
+          "breadth": []
+        }
+      },
+      {
+        "ARTHIST210": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/CLASSICS300": {
+          "credits": "3-4",
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/CLASSICS304": {
+          "credits": "3-4",
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST305": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST307": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST308": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/DS363": {
+          "credits": "3-4",
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST364": {
+          "credits": "3-4",
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/RELIGST373": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/ASIAN379": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST413": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/ASIAN428": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST440": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST457": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST468": {
+          "credits": "3-4",
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST475": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/RELIGST478": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST506": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST601": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST602": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST/HISTORY/JOURN/LIS650": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS355": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS421": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS422": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS430": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS642": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "FOLKLORE320": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "FOLKLORE439": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "FOLKLORE/LIS490": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "FOLKLORE/ANTHRO520": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "FOLKLORE540": {
+          "credits": 3,
+          "breadth": [
+            "Humanities",
+            "Social Science",
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "GEOG/URBRPL305": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science",
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "GEOG342": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "HISTSCI222": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "JOURN/HISTORY560": {
+          "credits": 4,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "LANDARC260": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "LANDARC677": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "SCANDST296": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "SCANDST/FOLKLORE440": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "THEATRE327": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "title": "design-innovation-society-bs",
+  "flag": "False",
+  "total_min_credits": 48,
+  "h1": {
+    "1": [
+      {
+        "DS120": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS123": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS140": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS220": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS221": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS/GENBUS240": {
+          "credits": 2,
+          "breadth": []
+        }
+      },
+      {
+        "DS/ANTHRO/ARTHIST/HISTORY/LANDARC264": {
+          "credits": 4,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "DS650": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS679": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CSCS455": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS252": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "INTER-HE202": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "DS601": {
+          "credits": "1-8",
+          "breadth": []
+        }
+      }
+    ],
+    "2": []
+  },
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "nested": {
+      "h2_1_1": {
+        "h2_1_1_h2_1": {
+          "optional": "False",
+          "num_credits": 9,
+          "1": [
+            {
+              "DS355": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS421": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS422": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS430": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART438": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "LANDARC260": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST210": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST/RELIGST373": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST357": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST/ASIAN379": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST457": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST468": {
+                "credits": "3-4",
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST506": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST601": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            },
+            {
+              "ARTHIST602": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities"
+                ]
+              }
+            }
+          ],
+          "2": [],
+          "3": []
+        }
+      },
+      "h2_1_2": {
+        "h2_1_2_h2_1": {
+          "optional": "False",
+          "num_credits": 9,
+          "1": [
+            {
+              "DS321": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS341": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS521": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS527": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "CSCS125": {
+                "credits": 3,
+                "breadth": [
+                  "Social Science"
+                ]
+              }
+            },
+            {
+              "CSCS570": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "CNSRSCI555": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "CNSRSCI561": {
+                "credits": 3,
+                "breadth": []
+              }
+            }
+          ],
+          "2": [],
+          "3": []
+        }
+      },
+      "h2_1_3": {
+        "h2_1_3_h2_1": {
+          "optional": "False",
+          "num_credits": 9,
+          "1": [
+            {
+              "DS451": {
+                "credits": 3,
+                "breadth": [
+                  "Quantitative Reasoning Part B"
+                ]
+              }
+            },
+            {
+              "DS/COMPSCI/ISYE518": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "CURRIC277": {
+                "credits": 3,
+                "breadth": [
+                  "Social Science"
+                ]
+              }
+            },
+            {
+              "CURRIC357": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "CURRIC432": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "ART309": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "ENVIRST/CIVENGR/GEOG377": {
+                "credits": 4,
+                "breadth": [
+                  "Natural Sci"
+                ]
+              }
+            },
+            {
+              "GEOG170": {
+                "credits": 3,
+                "breadth": [
+                  "Natural Sci"
+                ]
+              }
+            },
+            {
+              "GEOG370": {
+                "credits": 4,
+                "breadth": [
+                  "Natural Sci"
+                ]
+              }
+            },
+            {
+              "COMPSCI570": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "COMARTS155": {
+                "credits": 4,
+                "breadth": []
+              }
+            },
+            {
+              "COMARTS200": {
+                "credits": 3,
+                "breadth": [
+                  "Humanities",
+                  "Social Science"
+                ]
+              }
+            },
+            {
+              "CIVENGR250": {
+                "credits": 3,
+                "breadth": []
+              }
+            }
+          ],
+          "2": [],
+          "3": []
+        }
+      }
+    }
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "CNSRSCI+",
+      "CSCS+",
+      "DS+",
+      "HDFS+",
+      "INTER-HE+"
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "title": "textiles-design-certificate",
+  "flag": "False",
+  "total_min_credits": 12,
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "DS251": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS355": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS430": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS561": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "DS101": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS153": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS154": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS215": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS227": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS228": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS/ART229": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS327": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS427": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS429": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS451": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "DS/COMPSCI/ISYE518": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS519": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS527": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS528": {
+          "credits": "2-3",
+          "breadth": []
+        }
+      },
+      {
+        "DS529": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS570": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_credits": 7,
+    "outside_credit": [
+      "h2_1",
+      "h2_2"
+    ],
+    "1": [],
+    "2": [],
+    "3": []
+  }
+}

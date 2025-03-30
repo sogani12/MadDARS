@@ -1,0 +1,374 @@
+{
+  "title": "communication-sciences-disorders-bse",
+  "flag": "False",
+  "total_min_credits": 71,
+  "h1": {
+    "1": [
+      {
+        "RP&SE300": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D201": {
+          "credits": 3,
+          "breadth": [
+            "Biological Sci",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "CS&D202": {
+          "credits": 3,
+          "breadth": [
+            "Biological Sci",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "CS&D210": {
+          "credits": 3,
+          "breadth": [
+            "Biological Sci",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "CS&D240": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D303": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D315": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D318": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D320": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D371": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D425": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CS&D440": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "EDPSYCH301": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "EDPOL300": {
+          "credits": 3,
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "CURRIC305": {
+          "credits": 3,
+          "breadth": [
+            "Communication Part B"
+          ]
+        }
+      },
+      {
+        "POLISCI104": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "POLISCI205": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      }
+    ],
+    "2": []
+  },
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "STAT301": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "STAT311": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "STAT371": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "PSYCH210": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "SOC/C&ESOC360": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "ENGL314": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ENGL316": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "LINGUIS101": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "LINGUIS/ANTHRO301": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "ANTHRO104": {
+          "credits": 3,
+          "breadth": [
+            "Social Science",
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "ASIANAM101": {
+          "credits": 3,
+          "breadth": [
+            "Social Science",
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "CHICLA201": {
+          "credits": 3,
+          "breadth": [
+            "Social Science",
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "SOC134": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science",
+            "Ethnic Studies"
+          ]
+        }
+      },
+      {
+        "SOC/ASIANAM220": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science",
+            "Ethnic Studies",
+            "Communication Part B"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "ANTHRO105": {
+          "credits": 3,
+          "breadth": [
+            "Biological Sci",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "PHYSICS103": {
+          "credits": 4,
+          "breadth": [
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "PHYSICS109": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "GEN&WS103": {
+          "credits": 3,
+          "breadth": [
+            "Natural Science",
+            "Natural Sci"
+          ]
+        }
+      },
+      {
+        "BIOLOGY/ZOOLOGY101": {
+          "credits": 3,
+          "breadth": [
+            "Biological Sci",
+            "Natural Sci"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_5": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "EDPSYCH320": {
+          "credits": "2-3",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "EDPSYCH321": {
+          "credits": "2-3",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      },
+      {
+        "PSYCH460": {
+          "credits": "3-4",
+          "breadth": [
+            "Social Science"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_6": {
+    "optional": "False",
+    "num_credits": 3,
+    "1": [
+      "EDPSYCH+",
+      "EDPOL+",
+      "ARTED+"
+    ],
+    "2": [],
+    "3": []
+  }
+}

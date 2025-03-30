@@ -1,0 +1,74 @@
+{
+    "title": "interior-architecture-bs",
+    "flag": "False",
+    "total_min_credits": 82,
+    "h1": {
+        "1": [
+        "DS120",
+        "DS220",
+        "DS221",
+        "DS140",
+        "DS252",
+        "DS222",
+        "DS322",
+        "DS622",
+        "DS623",
+        "DS626",
+        "DS223",
+        "DS224",
+        "DS241",
+        "DS242",
+        "DS321",
+        "DS421",
+        "DS422",
+        "DS451",
+        "DS549",
+        "DS624",
+        "DS679",
+        "INTER-HE202",
+        "DS601"
+        ],
+        "2": []
+    },
+    "h2_1": {
+        "optional": "False",
+        "num_credits": 6,
+        "1": [
+        "DS101",
+        "DS227",
+        "DS251",
+        "DS252",
+        "DS/ANTHRO/ARTHIST/HISTORY/LANDARC264",
+        "DS341",
+        "DS361",
+        "DS501",
+        "DS/COMPSCI/ISYE518",
+        "DS521",
+        "DS527",
+        "DS561",
+        "DS/COMPSCI579",
+        "DS/LANDARC639"
+        ],
+        "2": [],
+        "3": []
+    },
+    "h2_2": {
+        "optional": "False",
+        "num_options": 1,
+        "1": [
+            "ARTHIST+",
+            "DS/ANTHRO/ARTHIST/HISTORY/LANDARC264"
+        ]
+    },
+    "h2_3": {
+        "optional": "False",
+      "num_options": 1,
+      "1": [
+        "CSCS+",
+        "DS+",
+        "HDFS+",
+        "INTER-HE+"
+      ]
+    }
+}
+  

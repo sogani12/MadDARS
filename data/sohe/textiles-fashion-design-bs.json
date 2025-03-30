@@ -1,0 +1,107 @@
+{
+    "title": "textiles-fashion-design-bs",
+    "flag": "False",
+    "total_min_credits": 68,
+    "h1": {
+      "1": [
+        "DS101",
+        "DS120",
+        "DS153",
+        "DS150",
+        "DS251",
+        "DS355",
+        "DS430",
+        "DS252",
+        "INTER-HE202",
+        "DS601",
+        "DS690",
+        "DS519",
+        "DS529"
+      ],
+      "2": [
+        ["DS355", "DS430"],
+        ["DS519", "DS529"]
+      ]
+    },
+    "h2_1": {
+      "optional": "False",
+      "num_options": 1,
+      "nested": {
+        "h2_1_1": {
+          "h2_1_1_h1": {
+            "1": [
+              "DS154",
+              "DS253",
+              "DS210",
+              "DS225",
+              "DS+",
+              "DS+",
+              "DS+"
+            ],
+            "2": []
+          }
+        },
+        "h2_1_2": {
+          "h2_1_2_h1": {
+            "1": [
+              "DS227",
+              "DS228",
+              "DS/ART229",
+              "DS327",
+              "DS+",
+              "DS+",
+              "DS+"
+            ],
+            "2": []
+          }
+        }
+      }
+    },
+    "h2_2": {
+      "optional": "False",
+      "num_credits": 15,
+      "outside_credit": ["h2_3"],
+      "num_outside_credit": [6],
+      "1": [
+        "DS319",
+        "DS341",
+        "DS427",
+        "DS429",
+        "DS/COMPSCI/ISYE518",
+        "DS527",
+        "DS528",
+        "DS529",
+        "DS570",
+        "DS561"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_3": {
+      "optional": "True",
+      "1": [
+        "MHR322",
+        "CNSRSCI257",
+        "CNSRSCI555",
+        "CNSRSCI561",
+        "CNSRSCI562",
+        "CNSRSCI657",
+        "ART469"
+      ],
+      "2": [],
+      "3": []
+    },
+    "h2_4": {
+      "optional": "False",
+      "num_options": 1,
+      "1": [
+        "CSCS+",
+        "CNSRSCI+",
+        "HDFS+",
+        "INTER-HE+"
+      ],
+      "2": [],
+      "3": []
+    }
+  }
+  

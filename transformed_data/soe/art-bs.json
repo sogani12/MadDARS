@@ -1,0 +1,343 @@
+{
+  "title": "art-bs",
+  "flag": "False",
+  "total_min_credits": 45,
+  "total_min_sems": 2,
+  "h1": {
+    "1": [
+      {
+        "ART508": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      "ART500=ART699"
+    ],
+    "2": [],
+    "4": [
+      "ART508",
+      "ART608",
+      "ART699"
+    ]
+  },
+  "h2_1": {
+    "optional": "False",
+    "num_options": 2,
+    "1": [
+      {
+        "ARTHIST201": {
+          "credits": 4,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST202": {
+          "credits": 4,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ARTHIST205": {
+          "credits": "3-4",
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ART438": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "ART222": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART232": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART242": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART302": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART312": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "ART214": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART224": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART244": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART334": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART343": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART354": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART454": {
+          "credits": 4,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "ART309": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART318": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART338": {
+          "credits": 2,
+          "breadth": []
+        }
+      },
+      {
+        "ART409": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART428": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART429": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART470": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART521": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART531": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_5": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      {
+        "ART306": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART316": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART326": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART336": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART346": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART348": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "ART376": {
+          "credits": "3-4",
+          "breadth": []
+        }
+      },
+      {
+        "ART446": {
+          "credits": 4,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_6": {
+    "optional": "True",
+    "1": [
+      "ART+"
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_7": {
+    "optional": "False",
+    "num_options": 3,
+    "concurrent_yes": [
+      "h2_7"
+    ],
+    "concurrent_no": [
+      "h2_8"
+    ],
+    "1": [
+      {
+        "ART102": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ART108": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "ART212": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_8": {
+    "optional": "False",
+    "num_options": 3,
+    "concurrent_yes": [
+      "h2_8"
+    ],
+    "concurrent_no": [
+      "h2_7"
+    ],
+    "1": [
+      {
+        "ART104": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ART107": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ART208": {
+          "credits": 3,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  }
+}

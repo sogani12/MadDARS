@@ -1,0 +1,306 @@
+{
+  "title": "textiles-fashion-design-bs",
+  "flag": "False",
+  "total_min_credits": 68,
+  "h1": {
+    "1": [
+      {
+        "DS101": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS120": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS153": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS150": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS251": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS355": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS430": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS252": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "INTER-HE202": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "DS601": {
+          "credits": "1-8",
+          "breadth": []
+        }
+      },
+      {
+        "DS690": {
+          "credits": "2-4",
+          "breadth": []
+        }
+      },
+      {
+        "DS519": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS529": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [
+      [
+        "DS355",
+        "DS430"
+      ],
+      [
+        "DS519",
+        "DS529"
+      ]
+    ]
+  },
+  "h2_1": {
+    "optional": "False",
+    "num_options": 1,
+    "nested": {
+      "h2_1_1": {
+        "h2_1_1_h1": {
+          "1": [
+            {
+              "DS154": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS253": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS210": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS225": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            "DS+",
+            "DS+",
+            "DS+"
+          ],
+          "2": []
+        }
+      },
+      "h2_1_2": {
+        "h2_1_2_h1": {
+          "1": [
+            {
+              "DS227": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS228": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS/ART229": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            {
+              "DS327": {
+                "credits": 3,
+                "breadth": []
+              }
+            },
+            "DS+",
+            "DS+",
+            "DS+"
+          ],
+          "2": []
+        }
+      }
+    }
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_credits": 15,
+    "outside_credit": [
+      "h2_3"
+    ],
+    "num_outside_credit": [
+      6
+    ],
+    "1": [
+      {
+        "DS319": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS341": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS427": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS429": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS/COMPSCI/ISYE518": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS527": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS528": {
+          "credits": "2-3",
+          "breadth": []
+        }
+      },
+      {
+        "DS529": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS570": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS561": {
+          "credits": 3,
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_3": {
+    "optional": "True",
+    "1": [
+      {
+        "MHR322": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI257": {
+          "credits": 2,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI555": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI561": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI562": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "CNSRSCI657": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "ART469": {
+          "credits": "1-4",
+          "breadth": []
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_4": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "CSCS+",
+      "CNSRSCI+",
+      "HDFS+",
+      "INTER-HE+"
+    ],
+    "2": [],
+    "3": []
+  }
+}

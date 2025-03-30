@@ -1,0 +1,273 @@
+{
+  "title": "interior-architecture-bs",
+  "flag": "False",
+  "total_min_credits": 82,
+  "h1": {
+    "1": [
+      {
+        "DS120": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS220": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS221": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS140": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS252": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "DS222": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "DS322": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "DS622": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "DS623": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "DS626": {
+          "credits": 4,
+          "breadth": []
+        }
+      },
+      {
+        "DS223": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS224": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS241": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS242": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS321": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS421": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS422": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS451": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "DS549": {
+          "credits": 3,
+          "breadth": [
+            "Quantitative Reasoning Part B"
+          ]
+        }
+      },
+      {
+        "DS624": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS679": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "INTER-HE202": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "DS601": {
+          "credits": "1-8",
+          "breadth": []
+        }
+      }
+    ],
+    "2": []
+  },
+  "h2_1": {
+    "optional": "False",
+    "num_credits": 6,
+    "1": [
+      {
+        "DS101": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS227": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS251": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS252": {
+          "credits": 1,
+          "breadth": []
+        }
+      },
+      {
+        "DS/ANTHRO/ARTHIST/HISTORY/LANDARC264": {
+          "credits": 4,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      },
+      {
+        "DS341": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS361": {
+          "credits": "1-6",
+          "breadth": []
+        }
+      },
+      {
+        "DS501": {
+          "credits": "1-3",
+          "breadth": []
+        }
+      },
+      {
+        "DS/COMPSCI/ISYE518": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS521": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS527": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS561": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS/COMPSCI579": {
+          "credits": 3,
+          "breadth": []
+        }
+      },
+      {
+        "DS/LANDARC639": {
+          "credits": 3,
+          "breadth": [
+            "Ethnic Studies"
+          ]
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "h2_2": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "ARTHIST+",
+      {
+        "DS/ANTHRO/ARTHIST/HISTORY/LANDARC264": {
+          "credits": 4,
+          "breadth": [
+            "Humanities"
+          ]
+        }
+      }
+    ]
+  },
+  "h2_3": {
+    "optional": "False",
+    "num_options": 1,
+    "1": [
+      "CSCS+",
+      "DS+",
+      "HDFS+",
+      "INTER-HE+"
+    ]
+  }
+}
